@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [greetingMessage, setGreeting] = useState("Greeting Message");
+  const [greetingMessage, setGreetingMessage] = useState("Greeting Message");
   return (
     <div className="App">
       <div className="greeting-container">{greetingMessage}</div>
